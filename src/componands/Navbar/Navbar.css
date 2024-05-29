@@ -71,6 +71,6 @@
    cursor: pointer;
 }
 .navbarprofile:hover .dropdown{
-    display: inline;
+    display: block;
 }
 
