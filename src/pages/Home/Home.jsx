@@ -28,7 +28,7 @@ const Home = () => {
             </button>
           </div>
           <TitleCards/> 
-          gggdg
+          gggdgrd
           fjf
 
         </div>
