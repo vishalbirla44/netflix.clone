@@ -15,7 +15,7 @@ cardRef.current.scrollLeft += event.deltaY;
 
   return (
     <div className='TitleCards'>
-      <h2>Popular on Netflix</h2>
+      <h2>{title?title:"Popular on Netfli"}</h2>
       <div className="card-list" ref={cardRef}>
         {cards_data.map((card, index) => {
           return <div className="card" key={index}>
