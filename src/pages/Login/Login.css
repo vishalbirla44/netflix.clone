@@ -11,6 +11,7 @@
 .login-from {
     width: 100%;
     max-width: 450px;
+    height: 90vh;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 4px;
     padding: 60px;
@@ -73,4 +74,10 @@
 .from-switch{
     margin-top: 40px;
     color: #737373;
+}
+.from-switch span{
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
 }
